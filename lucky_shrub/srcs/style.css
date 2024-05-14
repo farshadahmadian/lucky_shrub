@@ -186,6 +186,7 @@ a:visited {
 .card-heading {
   text-transform: uppercase;
   margin-bottom: 1.4rem;
+  text-align: center;
 }
 
 .card-text {
@@ -299,6 +300,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .card-image-container {
+    text-align: center;
+  }
+
   .card-image {
     width: 80%;
   }
